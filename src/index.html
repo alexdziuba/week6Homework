@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="UTF-8" />
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.js" />
+    <title>Searchbar</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div class="container">
+      <input
+        id="searchbar"
+        autocomplete="off"
+        type="text"
+        placeholder="Type city..."
+      />
+      <button id="searchButton">Search</button>
+      <h2 id="city">Cheadle, UK</h2>
+      <p><span id="date-time"></span></p>
+
+      <h1 id="temp">19<span id="celsfar">°C|°F</span></h1>
+      <span id="additional">
+        <p id="hum">Humidity 10%</p>
+        <p id="wind">Wind 5 km/h</p>
+      </span>
+    </div>
+  </body>
+</html>
